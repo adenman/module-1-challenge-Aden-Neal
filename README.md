@@ -11,6 +11,7 @@ the purpose of this project is to fix and format code that was given to me
 
 ## design
 
-<img src="./Develop/assets/images/_C__Users_aden_Dropbox_My%2520PC%2520(DESKTOP-4KMPUIH)_Desktop_module-1-challenge_Develop_index.html.png" alt="example of website" />
-! [dgb fcvehvcbd] (./)
+<img src="./assets/images/_C__Users_aden_Dropbox_My%2520PC%2520(DESKTOP-4KMPUIH)_Desktop_module-1-challenge_Develop_index.html.png" alt="example of website" />
+
 ## link
+https://adenman.github.io/module-1-challenge-Aden-Neal/

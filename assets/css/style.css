@@ -1,29 +1,30 @@
+/* makes everything border-box, sets padding and margin to 0 */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* sets the color of the background */
 body {
     background-color: #d9dcd6;
 }
-
+/* gives the header a new font, background color, text color, and padding  */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* gives all h1 tags within the header inline and font size 48px */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* sets thge color of the h1 tag within the header */
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* positions the header div and creates good sizing */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +32,25 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* takes away bullet points from the header */
 .header div ul {
     list-style-type: none;
 }
-
+/* makes the list within the header inline with a margin to the left */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* gives all a tags a new color and decoration  */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* make sthe font size of all p tags 16px */
 p {
     font-size: 16px;
 }
-
+/* a class that formats the cover photo  */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +59,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* a class that makes an element float to the left and sets a margin of 25px */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* a class that makes an element float to the right and sets a margin of 25px */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* formats the content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* formats the benefits */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,55 +86,55 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* sets margin and color for the benifit */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* sets margin and color for the benifit */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* sets margin and color for the benifit */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* sets the benefit h3 tags margin and aligns it to the centere */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* sets the benefit h3 tags margin and aligns it to the center */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* sets the benefit h3 tags margin and aligns it to the center */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* formats the benefit img */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* formats the benefit img */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* formats the benefit img */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* formats the search-engine-optimization tag */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -142,7 +143,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* formats the online-reputation-management tag */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -151,7 +152,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* formats the social-media-marketing */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,41 +161,41 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* sets the hight of the search-engine-optimization img */
 .search-engine-optimization img {
     max-height: 200px;
 }
-
+/* sets the hight of the online-reputation-management img */
 .online-reputation-management img {
     max-height: 200px;
 }
-
+/* sets the hight of the social-media-marketing img */
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* sets the search-engine-optimization h2 tags font size and margin */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* sets the online-reputation-management h2 tags font size and margin */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* sets the social-media-marketing h2 tags font size and margin */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* formats the footer  */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* formats the footers h2 tag  */
 .footer h2 {
     font-size: 20px;
 }
