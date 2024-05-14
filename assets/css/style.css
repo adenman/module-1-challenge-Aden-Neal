@@ -20,7 +20,7 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-/* sets thge color of the h1 tag within the header */
+/* sets the color of the h1 tag within the header */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -75,6 +75,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
 /* formats the benefits */
 .benefits {
     margin-right: 20px;
